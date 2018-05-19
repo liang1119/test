@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑";
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+   background-size: cover;
+    background-image: url("../img/banner.jpg");
+}
+html,body{
+height:100%;
+
+}
+.font{
+    font-size: 48px;
+    color: white;
+    position: absolute;left: 128px;top: 174px;
+}
+.font1{
+    color: white;
+    position: absolute;left: 128px;top:371px;
+}
+.img{
+    width: 260px;
+    height: 146px;
+    border-radius: 4px;
+    position: absolute;left: 128px;top:471px;
+}
+.imgicon{
+    color: white;
+    font-size:50px;
+    /*height: 60px;*/
+    /*width: 60px;*/
+    position: absolute;left: 210px;top:521px;
+}
+/*导航*/
+.doahan{
+    float: right;
+}
+.daohan>i{color: white;}
+.span1{
+    width: 109px;/*宽*/
+    height: 36px;/*高*/
+    color: white;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    outline: none;/*去除发光边框*/
+    border-radius: 20px;/*圆角*/
+    margin: 40px 39px 0 46px;/*外边距*/
+    border: 2px solid white;/*描边*/
+    background: transparent;/*取消背景色（透明）*/
+
+}
+.span2{margin: 0 46px 0 29px;color: white;}
+.span{color: white;}
+
+/*狂*/
+.zhucekuai{
+    width: 511px;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 124px; ;
+    right: 130px; ;
+    bottom: 124px;
+
+}
+/*顶部*/
+.dingbu{
+    height: 60px;
+    font-size: 0px;
+    text-align: center;
+    border-radius:10px 10px 0 0;
+    border-bottom: 1px solid #cacbd0;
+}
+.dingbu>span{
+    font-size: 20px;
+    line-height: 60px;
+}
+.yonghu{
+    margin-right: 44px;
+    padding: 22px 0 15px 0;
+}
+.yonghu:hover{
+    border-bottom: 2px solid #666666;
+}
+.denlu{
+    padding: 22px 0 15px 0;  }
+.denlu:hover{border-bottom: 2px solid #666666;}
+
+/*第二*/
+.disanfang{
+ text-align: center;
+    font-size: 0px;
+    margin: 40px 0 36px 0;
+}
+
+.twitter{/*twitter 底层*/
+    width: 131px;/*宽*/
+    height: 36px;/*高*/
+    display: inline-block;/*行块级*/
+    border-radius: 4px;/*圆角*/
+    text-align: center;/*水平居中*/
+    background-color: #55acee;/*背景色*/
+}
+
+.twiicon{/*twitter icon*/
+    color: white;/*icon颜色*/
+    line-height: 36px;/*居中*/
+    text-decoration: none;/*取消下划线*/
+}
+
+.facebook{/*facebook 底层*/
+    width: 131px;/*宽*/
+    height: 36px;/*高*/
+    margin: 0 19px 0 19px;/*左右边距*/
+    display: inline-block;/*行间距*/
+    border-radius: 4px;/*圆角*/
+    text-align: center;/*水平居中*/
+    background-color: #3b5998;/*背景色*/
+}
+
+.Google{/*Google 底层*/
+    width: 131px;/*宽*/
+    height: 36px;/*高*/
+    display: inline-block;/*行间距*/
+    border-radius: 4px;/*圆角*/
+    text-align: center;/*水平居中*/
+    background-color: #df4b38;/*背景色*/
+}
+
+
+.inpu{
+margin-top: 20px;
+    margin-left: 40px;
+    display:block;
+
+}
+
+#btt{
+border: none;
+    width: 200px;
+    height:30px;
+    background: dodgerblue;
+    margin-top: 20px;
+    margin-left: 40px;
+}
